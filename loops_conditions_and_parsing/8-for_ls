@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#listin'
+for i in *
+do
+	echo "$i" | cut -2f- -d '-'
+done
