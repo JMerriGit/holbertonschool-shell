@@ -2,5 +2,5 @@
 #listin'
 for i in *
 do
-	echo "$i" | cut -2f- -d '-'
+	echo "$i" | cut -f 2- -d '-'
 done
